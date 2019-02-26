@@ -97,7 +97,7 @@ Create a button that will call the code above.
 #### Swift
 ```swift
 let button = UIButton(frame: .zero)
-button.addTarget(self, action: #selector(presentBottomSheet), for: .touchUpInside)
+button.addTarget(self, action: #selector(present), for: .touchUpInside)
 ```
 
 #### Objective-C
